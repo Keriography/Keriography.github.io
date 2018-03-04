@@ -28,12 +28,15 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/keriography-symbol-edited-draft-3-a-128x111.png",
     "noImageResize": "",
     "versionFirst": "4.6.5",
     "uniqCompNum": 22,
     "versionPublish": "4.6.5",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "cookiesAlert": "",
+    "google-analytics": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
