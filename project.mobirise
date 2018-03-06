@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Keriography",
-    "currentPage": "index.html",
+    "currentPage": "Instafeed.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -463,7 +463,7 @@
         }
       ]
     },
-    "page1.html": {
+    "Instafeed.html": {
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "InstaFeed",
