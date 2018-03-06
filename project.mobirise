@@ -11,7 +11,7 @@
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
+        "dangerColor": "#4c4c4c",
         "titleFont": "Montserrat",
         "subtitleFont": "PT Sans",
         "textFont": "Open Sans",
@@ -31,7 +31,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/keriography-symbol-edited-draft-3-a-128x111.png",
     "noImageResize": "",
     "versionFirst": "4.6.5",
-    "uniqCompNum": 22,
+    "uniqCompNum": 33,
     "versionPublish": "4.6.5",
     "screenshot": "screenshot.png",
     "cookiesAlert": "",
@@ -57,7 +57,7 @@
             "showArrow": true,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-983-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/img-9350-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a07e49",
@@ -79,13 +79,44 @@
           "_anchor": "header1-c"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#4c4c4c",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-size": "30px"
+            },
+            ".mbr-section-title": {
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-size": "30px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgColor": "#f3f3f3"
+          },
+          "title": "<span style=\"font-weight: normal;\">FOCUSING IN ON YOUR MEMORIES</span>",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-u"
+        },
+        {
           "_inherit": "gallery1",
           "_params": {
             "showBullets": false,
             "fullWidth": true,
             "spacing": 0,
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "filterBgColor": false,
             "bgColor": "#f3f3f3",
             "showText": false,
@@ -191,12 +222,31 @@
         },
         {
           "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#f3f3f3"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">MORE FROM INSTAGRAM</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-v",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": false,
             "inverse": false,
-            "imageSize": "26",
-            "paddingTop": "1",
+            "imageSize": "38",
+            "paddingTop": "2",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -215,11 +265,10 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/keriography-logo-2018-circle-pad-green-bg-1400x1400.png",
+              "src": "@PROJECT_PATH@/assets/images/website-circles-1400x653.png",
               "link": "https://www.instagram.com/Keriography",
               "alt": "Keriography",
-              "title": "Keriography",
-              "linkInNewWindow": true
+              "title": "Keriography"
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -233,8 +282,8 @@
               "size": 0
             }
           },
-          "title": "FOCUSING IN ON YOUR MEMORIES",
-          "text": "Hey! I'm Keri and we are currently updating Keriography's look and website...so check back later when the full website is up. For now, you can see a few photos here and on social media. Thanks for stopping by!",
+          "title": "",
+          "text": "Hey! I'm Keri and we are currently updating Keriography's look and website. So, check back later when the full website is up. For now, you can see a few photos here and on social media. Thanks for stopping by!",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
@@ -393,7 +442,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/keriography-draft-2018-b-573x128.png",
+              "src": "@PROJECT_PATH@/assets/images/keriography-logo-web-header-504x128.png",
               "height": 128,
               "alt": "Keriography",
               "link": "index.html",
@@ -411,6 +460,222 @@
           ],
           "_name": "menu",
           "_anchor": "menu-9"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "InstaFeed",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#4c4c4c",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright © 2018 Keriography • All Rights Reserved",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "font-size": "10px",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700"
+            }
+          },
+          "_anchor": "footer1-n"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#4c4c4c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#4c4c4c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#4c4c4c",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-family": "'PT Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.95rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.029rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#dadada"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#ebebeb!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#f3f3f3"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#4c4c4c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#6ebb9a!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": false,
+            "transparent": false,
+            "bgColor": "#f3f3f3",
+            "fontSize": "0.95",
+            "fontName": {
+              "name": "PT Sans",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "css": "'PT Sans', sans-serif"
+            },
+            "fontColor": "#4c4c4c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/Keriography\" aria-expanded=\"false\" target=\"_blank\">Instagram<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.facebook.com/Keriography/\" aria-expanded=\"false\" target=\"_blank\">Facebook<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://twitter.com/Keriography\" aria-expanded=\"false\" target=\"_blank\">Twitter<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mailto:keri@keriographyphotos.com\" aria-expanded=\"false\">Email</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://keriography.tumblr.com\" aria-expanded=\"false\" target=\"_blank\">Archive</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/keriography-logo-web-header-504x128.png",
+              "height": 128,
+              "alt": "Keriography",
+              "link": "index.html",
+              "title": "Keriography"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-o"
+        },
+        {
+          "_params": {
+            "token": "769063127.727bfe1.3977d60d259444609df77df7eb84a999",
+            "showTitle": false,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": "5",
+            "rows": "8",
+            "showMoreButton": false,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": 4,
+            "spacing": "0",
+            "fullWidth": true,
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColorRadio": true,
+            "bgColor": "#f3f3f3",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-9344-2000x1333.jpg",
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "<span style=\"font-weight: normal;\">Instagram Feed</span>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-max-id=\"1726755543816404814_769063127\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show More</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-q",
+          "_styles": {
+            ".inst__title SPAN": {
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "4",
+            "bgColor": "#f3f3f3"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.instagram.com/Keriography\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">VIEW INSTAGRAM</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-w"
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#4c4c4c",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "15px",
+              "color": "#f3f3f3"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#4c4c4c",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "text": "<span style=\"font-weight: normal;\">Follow @Keriography</span>",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/Keriography\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Keriography\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/Keriography\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-s"
         }
       ]
     }
