@@ -164,7 +164,7 @@
 .inst-card {
   position: relative; }
   .inst-card:hover .inst-card__info {
-    opacity: 0; }
+    opacity: 1; }
   .inst-card__link {
     display: block;
     background-size: cover;

@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Keriography",
-    "currentPage": "Instafeed.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -24,26 +24,31 @@
         "#6ebb9a",
         "#f3f3f3",
         "#8c8c8c",
-        "#4c4c4c"
+        "#4c4c4c",
+        "#86bfa7"
       ]
     },
     "path": "@PROJECT_PATH@",
-    "favicon": "@PROJECT_PATH@/assets/images/keriography-symbol-edited-draft-3-a-128x111.png",
+    "favicon": "@PROJECT_PATH@/assets/images/keriography-favicon-128x128.png",
     "noImageResize": "",
     "versionFirst": "4.6.5",
-    "uniqCompNum": 33,
+    "uniqCompNum": 42,
     "versionPublish": "4.6.5",
     "screenshot": "screenshot.png",
     "cookiesAlert": "",
-    "google-analytics": "",
-    "siteUrl": "undefined"
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-115301222-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-115301222-1');\r\n</script>",
+    "siteUrl": "http://keriography.com",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "robotsSwitcher": "on",
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Keriography",
+        "meta_descr": "Keri Witmyer, Photographer. Focusing in on your memories. Bakersfield, California. Seniors, Families, Couples, Engagement, Lifestyle, Portraits, Events, Newborn, Wedding, and more.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -87,7 +92,7 @@
               "color": "#4c4c4c",
               "font-family": "'PT Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
-              "font-size": "30px"
+              "font-size": "23px"
             },
             ".mbr-section-title": {
               "font-family": "'PT Sans', sans-serif",
@@ -98,7 +103,7 @@
           "_params": {
             "showMeta": true,
             "paddingTop": "2",
-            "paddingBottom": "0",
+            "paddingBottom": "1",
             "bgColor": "#f3f3f3"
           },
           "title": "<span style=\"font-weight: normal;\">FOCUSING IN ON YOUR MEMORIES</span>",
@@ -129,7 +134,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "image": "@PROJECT_PATH@/assets/images/img-357-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-357-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "portrait photo example",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -140,7 +145,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "image": "@PROJECT_PATH@/assets/images/img-1558-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-1558-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "senior guy photo example",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -151,7 +156,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "image": "@PROJECT_PATH@/assets/images/img-8627-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-8627-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "talent photo example",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -162,7 +167,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "image": "@PROJECT_PATH@/assets/images/img-2205-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-2205-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "sibling photo example",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -173,7 +178,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "image": "@PROJECT_PATH@/assets/images/img-9763-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-9763-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "senior girl photo example",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -184,7 +189,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "image": "@PROJECT_PATH@/assets/images/img-9378-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-9378-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "maternity photo example",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -195,7 +200,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "image": "@PROJECT_PATH@/assets/images/img-9160-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-9160-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "newborn photo example",
                 "caption": "Type caption here",
                 "active": true
               },
@@ -206,7 +211,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "image": "@PROJECT_PATH@/assets/images/img-8185-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-8185-2000x1333-800x533.jpg",
-                "alt": "",
+                "alt": "couples photo example",
                 "caption": "Type caption here",
                 "active": false
               }
@@ -223,19 +228,18 @@
         {
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingBottom": "3",
             "bgColor": "#f3f3f3"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">MORE FROM INSTAGRAM</a> ",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"InstaGallery.html\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "buttons1",
-          "_anchor": "buttons1-v",
+          "_anchor": "buttons1-z",
           "_styles": {
             ".btn": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "font-size": "11px"
             }
           }
         },
@@ -247,12 +251,12 @@
             "inverse": false,
             "imageSize": "38",
             "paddingTop": "2",
-            "paddingBottom": "1",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f3f3f3",
+            "bgColor": "#86bfa7",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -265,10 +269,10 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/website-circles-1400x653.png",
+              "src": "@PROJECT_PATH@/assets/images/website-circles-white-c-1400x656.png",
               "link": "https://www.instagram.com/Keriography",
-              "alt": "Keriography",
-              "title": "Keriography"
+              "alt": "Keri Picture And Keriography Circle",
+              "title": "Keriography Picture & Logo"
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -283,7 +287,7 @@
             }
           },
           "title": "",
-          "text": "Hey! I'm Keri and we are currently updating Keriography's look and website. So, check back later when the full website is up. For now, you can see a few photos here and on social media. Thanks for stopping by!",
+          "text": "Hey! I'm Keri and we are currently updating Keriography's look and website. A full website is coming soon. For now, you can see a few photos here and on social media. Thanks for stopping by!",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
@@ -296,7 +300,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
               "color": "#4c4c4c",
               "font-size": "17px",
-              "text-align": "left"
+              "text-align": "right"
             },
             "H3": {
               "color": "#4c4c4c",
@@ -325,7 +329,7 @@
           },
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
             "parallax": true,
@@ -356,7 +360,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright © 2018 Keriography • All Rights Reserved",
+          "text": "Photographer &nbsp;• &nbsp;Bakersfield, California<br>Copyright © 2011-2018 Keriography &nbsp;• &nbsp;All Rights Reserved",
           "_tags": [
             "Theme"
           ],
@@ -444,9 +448,10 @@
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/keriography-logo-web-header-504x128.png",
               "height": 128,
-              "alt": "Keriography",
+              "alt": "Keriography Photography Logo",
               "link": "index.html",
-              "title": "Keriography"
+              "title": "Keriography",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -463,10 +468,10 @@
         }
       ]
     },
-    "Instafeed.html": {
+    "InstaGallery.html": {
       "settings": {
-        "meta_descr": "Site Generator Description",
-        "title": "InstaFeed",
+        "meta_descr": "Keri Witmyer, Photographer. Focusing in on your memories. Bakersfield, California. Instagram portfolio & gallery. View more on Instagram.",
+        "title": "Keriography  •  InstaGallery",
         "order": 1
       },
       "components": [
@@ -483,7 +488,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "Copyright © 2018 Keriography • All Rights Reserved",
+          "text": "Photographer &nbsp;• &nbsp;Bakersfield, California<br>Copyright © 2011-2018 Keriography &nbsp;• &nbsp;All Rights Reserved",
           "_tags": [
             "Theme"
           ],
@@ -571,9 +576,10 @@
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/keriography-logo-web-header-504x128.png",
               "height": 128,
-              "alt": "Keriography",
+              "alt": "Keriography Photography Logo",
               "link": "index.html",
-              "title": "Keriography"
+              "title": "Keriography",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -600,7 +606,7 @@
             "imagesPerRowSlider": 4,
             "spacing": "0",
             "fullWidth": true,
-            "paddingTop": "3",
+            "paddingTop": "2",
             "paddingBottom": 1,
             "bgColorRadio": true,
             "bgColor": "#f3f3f3",
@@ -659,7 +665,7 @@
           },
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
             "parallax": true,
@@ -676,6 +682,218 @@
           "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/Keriography\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Keriography\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/Keriography\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      ",
           "_name": "social-buttons4",
           "_anchor": "social-buttons4-s"
+        }
+      ]
+    },
+    "404.html": {
+      "settings": {
+        "meta_descr": "Keri Witmyer, Photographer. Focusing in on your memories. Bakersfield, California. Error page in case a link breaks.",
+        "title": "Error Page",
+        "order": 2
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#4c4c4c",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Photographer &nbsp;• &nbsp;Bakersfield, California<br>Copyright © 2011-2018 Keriography &nbsp;• &nbsp;All Rights Reserved",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "font-size": "10px",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700"
+            }
+          },
+          "_anchor": "footer1-11"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#4c4c4c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#4c4c4c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#4c4c4c",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-family": "'PT Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.95rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.029rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#dadada"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#ebebeb!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#f3f3f3"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#4c4c4c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#6ebb9a!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": false,
+            "transparent": false,
+            "bgColor": "#f3f3f3",
+            "fontSize": "0.95",
+            "fontName": {
+              "name": "PT Sans",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "css": "'PT Sans', sans-serif"
+            },
+            "fontColor": "#4c4c4c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/Keriography\" aria-expanded=\"false\" target=\"_blank\">Instagram<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.facebook.com/Keriography/\" aria-expanded=\"false\" target=\"_blank\">Facebook<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://twitter.com/Keriography\" aria-expanded=\"false\" target=\"_blank\">Twitter<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mailto:keri@keriographyphotos.com\" aria-expanded=\"false\">Email</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://keriography.tumblr.com\" aria-expanded=\"false\" target=\"_blank\">Archive</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/keriography-logo-web-header-504x128.png",
+              "height": 128,
+              "alt": "Keriography Photography Logo",
+              "link": "index.html",
+              "title": "Keriography",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-12"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#8c8c8c",
+              "font-size": "20px"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "color": "#4c4c4c",
+              "font-size": "48px"
+            },
+            ".btn": {
+              "font-size": "12px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "left",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f3f3f3",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "<span style=\"font-weight: normal;\">Oops! Error 404.</span>",
+          "text": "This link either does not exist or has been moved.<br>Sorry for the inconvenience.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">GO TO HOMEPAGE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-13"
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#4c4c4c",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "15px",
+              "color": "#f3f3f3"
+            }
+          },
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#4c4c4c",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "text": "<span style=\"font-weight: normal;\">Follow @Keriography</span>",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/Keriography\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Keriography\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/Keriography\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-15"
         }
       ]
     }
